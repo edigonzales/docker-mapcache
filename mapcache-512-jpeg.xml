@@ -20,7 +20,7 @@
     <!--eCH-0056 v3-->
     <!--Resolution 0.05 removed intentionally from the following list-->
     <resolutions>4000,2000,1000,500,250,100,50,20,10,5,2.5,1,0.5,0.25,0.1</resolutions>
-    <size>256 256</size>
+    <size>512 512</size>
   </grid>
 
   <cache name="sqlite" type="sqlite3">
@@ -52,7 +52,7 @@
       <params>
         <FORMAT>image/png</FORMAT>
         <LAYERS>ch.so.agi.hintergrundkarte_farbig</LAYERS>
-        <TRANSPARENT>true</TRANSPARENT>
+        <TRANSPARENT>false</TRANSPARENT>
       </params>
   </getmap>
     <http>
@@ -80,7 +80,7 @@
     <cache>sqlite</cache>
     <grid restricted_extent="2570000,1208000,2667000,1268000">2056</grid>
     <format>myjpeg</format>
-    <metatile>8 8</metatile>
+    <metatile>4 4</metatile>
     <metabuffer>0</metabuffer>
     <expires>28800</expires>
   </tileset>
@@ -90,7 +90,7 @@
     <cache>sqlite</cache>
     <grid restricted_extent="2570000,1208000,2667000,1268000">2056</grid>
     <format>myjpeg</format>
-    <metatile>8 8</metatile>
+    <metatile>4 4</metatile>
     <metabuffer>20</metabuffer>
     <expires>28800</expires>
   </tileset>
@@ -100,7 +100,7 @@
     <cache>sqlite</cache>
     <grid restricted_extent="2570000,1208000,2667000,1268000">2056</grid>
     <format>PNG</format>
-    <metatile>8 8</metatile>
+    <metatile>4 4</metatile>
     <metabuffer>20</metabuffer>
     <expires>28800</expires>
   </tileset>
